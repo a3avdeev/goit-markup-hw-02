@@ -1,3 +1,25 @@
+:root {
+  --primary-font-family: font-family: 'Roboto', sans-serif;
+  --secondary-font-family: "Raleway", sans-serif;
+  --primary-text-color-theme-dark: 157, 164, 189;
+  --secondary-text-color-theme-dark: #ffffff;
+  --primary-text-color-theme-light: #555555;
+  --secondary-text-color-theme-light: #303030;
+  --accent-color: #ff6c00;
+}
+
+body {
+  font-family: var(--primary-font-family);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
 footer {
   background-color: #2f303a;
 }
