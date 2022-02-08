@@ -125,7 +125,7 @@ body {
 .footer {
   background-color: #2f303a;
 }
-/* о курсоре и выделении ничего не сказано в задании */
+
 .footer-contacts-address {
   font-family: var(--font-family);
   font-style: normal;
@@ -137,11 +137,23 @@ body {
 }
 
 .footer-contacts-link {
-  font-family: Roboto;
+  font-family: var(--font-family);
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contacts-address:hover,
+.footer-contacts-address:focus {
+  color: var(--accent-color);
+  cursor: pointer;
+}
+
+.footer-contacts-link:hover,
+.footer-contacts-link:focus {
+  color: var(--accent-color);
+  cursor: pointer;
 }
